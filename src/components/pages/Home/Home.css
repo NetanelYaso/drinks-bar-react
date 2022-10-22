@@ -1,66 +1,12 @@
-.drinks_img {
-    gap: 3vw;
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    flex-wrap: wrap;
-    margin: 5%;
-}
+ .home_card1{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    z-index: 1;
+    /* position: absolute; */
+    max-width: 597px;
+    background-color: #fff5eb;
+     /* align-items: center; */
+} 
 
-#wine_img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 33vw;
-
-}
-
-#wine_img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-#beer_img {
-
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 33vw;
-
-}
-
-#beer_img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-#champagne_img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 33vw;
-}
-
-#champagne_img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-#cocktail_img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 33vw;
-}
-
-#cocktail_img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-#presents_img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 33vw;
-}
-
-#presents_img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}

@@ -1,0 +1,88 @@
+const list = [
+  {
+    id: 1,
+    title: "Margarita",
+    price: 89,
+    img: "https://cdn.shopify.com/s/files/1/0521/1940/4744/products/011_3000x.jpg?v=1652268097",
+    amount: 1,
+  },
+  {
+    id: 2,
+    title: "Poulner",
+    price: 98,
+    img: "https://blend.co.il/dw/image/v2/BFPS_PRD/on/demandware.static/-/Sites-blend-master-catalog/default/dw8c1ee8c4/Beer/Beer%20bundles/%D7%9E%D7%90%D7%A8%D7%96%20%D7%A4%D7%90%D7%95%D7%9C%D7%A0%D7%A8.jpg?sw=300&sh=300",
+    amount: 1,
+  },
+  {
+    id: 3,
+    title: "Blue Moon",
+    price: 143,
+    img: "https://blend.co.il/dw/image/v2/BFPS_PRD/on/demandware.static/-/Sites-blend-master-catalog/default/dwb5340219/Beer/Beer%20bundles/7008901.jpg?sw=300&sh=300",
+    amount: 1,
+  },
+  {
+    id: 4,
+    title: "Dalmore",
+    price: 57,
+    img: "https://liquor-store.co.il/wp-content/uploads/2021/05/DALMORE-PORT-WOOD.jpg",
+    amount: 1,
+  },
+  {
+    id: 5,
+    title: "My First 1000 Words",
+    price: 149,
+    img: "https://m.media-amazon.com/images/I/71O-FI7QApL._AC_UY327_FMwebp_QL65_.jpg",
+    amount: 1,
+  },
+  {
+    id: 6,
+    title: "101 Panchatantra Stories for Children",
+    price: 135,
+    img: "https://m.media-amazon.com/images/I/9173YBkMIsL._AC_UY327_FMwebp_QL65_.jpg",
+    amount: 1,
+  },
+  {
+    id: 7,
+    title: "Pre-School Activities Pack ",
+    price: 693,
+    img: "https://m.media-amazon.com/images/I/913sv4sex3L._AC_UY327_FMwebp_QL65_.jpg",
+    amount: 1,
+  },
+  {
+    id: 8,
+    title: "Early Learning Library Pack 1",
+    price: 289,
+    img: "https://m.media-amazon.com/images/I/71xMttNhr7L._AC_UY327_FMwebp_QL65_.jpg",
+    amount: 1,
+  },
+  {
+    id: 9,
+    title: "Blossom Moral Story Book for Kids ",
+    price: 80,
+    img: "https://m.media-amazon.com/images/I/7122h3jWvEL._AC_UY327_FMwebp_QL65_.jpg",
+    amount: 1,
+  },
+  {
+    id: 10,
+    title: "Brain Activity Book for Kids",
+    price: 86,
+    img: "https://m.media-amazon.com/images/I/7175YpTSa7L._AC_UY327_FMwebp_QL65_.jpg",
+    amount: 1,
+  },
+  {
+    id: 11,
+    title: "Willy the Silly Panda",
+    price: 120,
+    img: "https://m.media-amazon.com/images/I/71-ocPGQIJL._AC_UY327_FMwebp_QL65_.jpg",
+    amount: 1,
+  },
+  {
+    id: 12,
+    title: "Grandma's Bag of Stories",
+    price: 157,
+    img: "https://m.media-amazon.com/images/I/81jv44QdNwL._AC_UY327_FMwebp_QL65_.jpg",
+    amount: 1,
+  },
+];
+
+export default list;
