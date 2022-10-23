@@ -10,7 +10,7 @@ import { useEffect } from "react";
 
 export default function Router() {
     useEffect(()=>{
-        
+
     },[])
     return (
         <div>
@@ -18,7 +18,7 @@ export default function Router() {
                 <Route path="/" element={<Home />} />
                 <Route path="/AboutUs" element={<AboutUs/>} />
                 <Route path="/Contact" element={<Contact />} />
-                <Route path="/Profile" element={<Profile />} />
+                {/* <Route path="/Profile" element={<Profile />} /> */}
                 <Route path="/Registration" element={<Registration />} />
                 <Route path="/Products" element={<Products />} />
                 <Route path="/Team" element={<Team />} />

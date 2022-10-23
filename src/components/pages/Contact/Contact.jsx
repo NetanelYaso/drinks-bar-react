@@ -35,8 +35,9 @@ function Contact() {
               <Form.Label>Example textarea</Form.Label>
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
-            <Button variant="success" type="submit">
-              Submit
+            <Button  variant="success" type="submit">
+            <a className="text-white text-decoration-none" href="mailto:netanelyaso12@gmail.com">Submit</a>
+              
             </Button>
           </Form>
         </div>

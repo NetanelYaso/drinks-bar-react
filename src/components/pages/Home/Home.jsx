@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home bg-dark d-flex justify-content-center align-items-center flex-column">
       <div className="bg-light w-75 d-flex justify-content-center align-items-center flex-column ">
-        <Carousel className="w-100 mb-3">
+        <Carousel className="w-75 mb-3">
           <Carousel.Item>
             <img
               className="d-block w-100"
