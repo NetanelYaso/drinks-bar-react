@@ -3,11 +3,15 @@ import Home from './components/pages/Home/Home';
 import AboutUs from "./components/pages/AboutUs/AboutUs";
 import Profile from './components/pages/Profile/Profile';
 import Registration from "./components/pages/Registration/Registration";
-import Store from "./components/pages/Store/Store";
 import Products from "./components/pages/Products/Products";
 import Contact from "./components/pages/Contact/Contact";
+import Team from "./components/pages/Team/Team";
+import { useEffect } from "react";
 
 export default function Router() {
+    useEffect(()=>{
+        
+    },[])
     return (
         <div>
             <Routes>
@@ -16,8 +20,8 @@ export default function Router() {
                 <Route path="/Contact" element={<Contact />} />
                 <Route path="/Profile" element={<Profile />} />
                 <Route path="/Registration" element={<Registration />} />
-                <Route path="/Store" element={<Store />} />
                 <Route path="/Products" element={<Products />} />
+                <Route path="/Team" element={<Team />} />
             </Routes>
         </div>
     )

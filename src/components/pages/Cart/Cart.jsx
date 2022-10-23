@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Button } from "react-bootstrap";
 import "./Cart.css";
 
 const Cart = ({ cart, setCart, handleChange }) => {
@@ -29,13 +30,13 @@ const Cart = ({ cart, setCart, handleChange }) => {
             <p>{item.title}</p>
           </div>
           <div>
-            <button onClick={() => handleChange(item, 1)}>+</button>
-            <button>{item.amount}</button>
-            <button onClick={() => handleChange(item, -1)}>-</button>
+            <Button onClick={() => handleChange(item, 1)}>+</Button>
+            <Button>{item.amount}</Button>
+            <Button onClick={() => handleChange(item, -1)}>-</Button>
           </div>
           <div>
             <span>{item.price}</span>
-            <button onClick={() => handleRemove(item.id)}>Remove</button>
+            <Button onClick={() => handleRemove(item.id)}>Remove</Button>
           </div>
         </div>
       ))}

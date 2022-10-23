@@ -1,10 +1,11 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import "./Cards.css"
 
 const Cards = ({ item, handleClick }) => {
   const { title, author, price, img } = item;
   return (
-    <div className="card  col-md-4 mb-5 w-25">
+    <div className="card ">
       <div className="card-body">
       <div className="card-img imegcards ">
         <img className="w-100 h-100 imegcards "  src={img} alt="" />
@@ -12,8 +13,8 @@ const Cards = ({ item, handleClick }) => {
       <div className="card-text">
         <p>{title}</p>
         <p>{author}</p>
-        <p>Price - {price}USD</p>
-        <button onClick={() => handleClick(item)}>Add to Cart</button>
+        <p>Price - {price}$ USD</p>
+        <Button onClick={() => handleClick(item)}>Add to Cart</Button>
       </div>
       </div>
     </div>

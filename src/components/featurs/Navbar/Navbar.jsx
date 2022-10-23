@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 const Navbar = ({ setShow, size }) => {
   return (
     <nav>
-      <div className="nav_box">
+      <div className="nav_box mb-3">
         <span className="my_shop" onClick={() => setShow(true)}>
-          My Shopping 
+         Store
         </span>
         <div className="cart" onClick={() => setShow(false)}>
           <span>

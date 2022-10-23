@@ -27,7 +27,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    border-bottom: 2px solid skyblue;
+    border-bottom: 2px solid rgb(232, 148, 12);
     padding-bottom: 5px;
   }
   
@@ -44,15 +44,15 @@
     border: none;
     outline: none;
     color: white;
-    background-color: skyblue;
+    background-color: rgb(232, 65, 39);
     border-radius: 5px;
     cursor: pointer;
   }
   .cart_box div:nth-child(3) button:hover {
-    background-color: darkseagreen;
+    background-color: rgb(255, 129, 110);
   }
   .cart_box div:nth-child(3) span {
-    background-color: lightgreen;
+    /* background-color: rgb(211, 202, 27); */
     padding: 5px 10px;
     border-radius: 5px;
     margin-right: 10px;
@@ -65,7 +65,7 @@
   
   .total span:nth-child(1) {
     font-size: 2rem;
-    color: skyblue;
+    color:black;
     font-weight: bold;
     letter-spacing: 2px;
   }
