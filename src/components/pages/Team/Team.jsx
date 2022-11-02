@@ -12,6 +12,7 @@ function Team() {
   }, [])
   return (
     <div className="team table-striped">
+      <h1 className="d-flex justify-content-center">Our Team Members</h1>
       {
         user.map((item) => 
           <Table striped bordered hover>

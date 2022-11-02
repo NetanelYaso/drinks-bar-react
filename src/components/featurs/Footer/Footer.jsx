@@ -10,11 +10,10 @@ function Footer() {
           ultricies feugiat leo. Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis augue. Nam ut nibh mollis, tristique ante sed, viverra massa.
         </p>
         <div className="icons">
-          <a href="#"><i className="fa fa-facebook"></i></a>
-          <a href="#"><i className="fa fa-twitter"></i></a>
-          <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-          <a href="#"><i className="fa fa-google-plus"></i></a>
-          <a href="#"><i className="fa fa-instagram"></i></a>
+          <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+          <a href="#"><i class="ri-twitter-line"></i></a>
+          <a href="https://www.linkedin.com/in/netanel-yaso-438150238/"><i class="ri-linkedin-box-fill"></i></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox"><i class="ri-google-fill"></i></a>
         </div>
       </div>
       <div className="footer-center col-md-4 col-sm-6">

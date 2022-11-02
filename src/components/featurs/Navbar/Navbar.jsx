@@ -12,8 +12,7 @@ const Navbar = ({ setShow, size }) => {
         </span>
         <div className="cart" onClick={() => setShow(false)}>
           <span>
-            <i className="fas fa-cart-plus"></i>
-          </span>
+          <i className="ri-shopping-cart-2-line bg-dark rounded-circle"></i>          </span>
           <span>{size}</span>
         </div>
       </div>

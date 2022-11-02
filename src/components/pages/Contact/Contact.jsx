@@ -37,7 +37,6 @@ function Contact() {
             </Form.Group>
             <Button  variant="success" type="submit">
             <a className="text-white text-decoration-none" href="mailto:netanelyaso12@gmail.com">Submit</a>
-              
             </Button>
           </Form>
         </div>
